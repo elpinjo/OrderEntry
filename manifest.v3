@@ -3,7 +3,7 @@
 <Values version="2.0">
   <value name="enabled">yes</value>
   <value name="system_package">no</value>
-  <value name="version">1.0</value>
+  <value name="version">2.0</value>
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
@@ -14,12 +14,12 @@
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
   <value name="build"></value>
-  <value name="description"></value>
+  <value name="description">Order entry package that inserts an order including its line-items into the database.</value>
   <value name="created_date">20-09-2024 08:01:32 CEST</value>
   <array name="extendedProperties" type="record" depth="1">
     <record javaclass="com.wm.util.Values">
       <value name="key">displayName</value>
-      <value name="value"></value>
+      <value name="value">Order Entry</value>
     </record>
     <record javaclass="com.wm.util.Values">
       <value name="key">trusted</value>
@@ -34,4 +34,5 @@
       <value name="value"></value>
     </record>
   </array>
+  <null name="target_server_version"/>
 </Values>
